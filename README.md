@@ -11,18 +11,50 @@ You'll need:
 
 * [Java 1.8 or later] (https://www.oracle.com/technetwork/java/javase/)
 * [Chrome browser] (https://www.google.com/chrome/)
-* [PlantUML Jar 1.2019.13 or later] (http://plantuml.com/)
+* (Optional) [PlantUML Jar 1.2019.13 or later] (http://plantuml.com/)
+
+### Step 2: Download storydoc
+
+1. Download master ZIP file from the storydoc [master.zip] (https://github.com/story-doc/js/archive/master.zip).
+2. Unzip it.
+
+We assumed that the required Jar files (storydoc.jar and plantuml.jar) are located in a same folder:
+
+    js-master/
+    ├── doc/
+    ├── samples/
+    ├── plantuml.jar
+    ├── README.md
+    ├── storydoc.jar
+    └── storydoc.js
+
+### Step 3: Storyboard sample story
+
+1. Go to samples/SearchStoryboard folder and open index.html with your browser.
+2. You will be able to storyboard Product Search User Story as same experience as the sample [SearchStoryboard] (https://story-doc.github.io/SearchStoryboard/index.html)
+
+### Step 4: Generate storydoc HTML
+
+1. Go back to js-master folder.
+2. Run the command below from a command line:
+
+```
+$ java -jar storydoc.jar samples/SearchStoryboard/index.html
+```
+
+storydoc.html will be generated in the samples/SearchStoryboard folder.
+It will be same as this [storydoc.html] (https://story-doc.github.io/SearchStoryboard/storydoc.html)
 
 ## Documentation
 
 * [User Guide] (https://github.com/story-doc/js/tree/master/doc/StorydocUserGuide.pdf)
 
 ## History
- 
-Version 0.0.1 (2019-12-12)
- 
+
+Version 0.0.1 (2019-12-23)
+
 ## Credits
- 
+
 Developer - Masayuki Otoshi
  
 ## License
