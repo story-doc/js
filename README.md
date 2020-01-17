@@ -49,6 +49,10 @@ It will be same as this [storydoc.html] (https://story-doc.github.io/SearchStory
 
 * [User Guide] (https://github.com/story-doc/js/tree/master/doc/StorydocUserGuide.pdf)
 
+## Article
+
+* [Realizing User Story with Storyboard] (https://dzone.com/articles/realizing-user-story-with-storyboard)
+
 ## History
 
 Version 0.0.1 (2019-12-23)
