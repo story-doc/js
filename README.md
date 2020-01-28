@@ -11,7 +11,8 @@ You'll need:
 
 * [Java 1.8 or later] (https://www.oracle.com/technetwork/java/javase/)
 * [Chrome browser] (https://www.google.com/chrome/)
-* (Optional) [PlantUML Jar 1.2019.13 or later] (http://plantuml.com/)
+* [PlantUML Jar 1.2019.13 or later] (http://plantuml.com/)
+* [Graphviz (dependency of PlantUML)] (https://plantuml.com/starting)
 
 ### Step 2: Download storydoc
 
